@@ -198,3 +198,8 @@ int main()
      return 0;
 }
 
+//create()     → Time: O(1),     Space: O(1)
+//insertb()    → Time: O(1),     Space: O(1)
+//insertc()    → Time: O(n),     Space: O(1)
+//inserts()    → Time: O(n + m), Space: O(1)
+//displayb()   → Time: O(n + k), Space: O(1)
