@@ -7,10 +7,12 @@ struct node
     node *R;
 };
 node *root,*temp;
-int count,key;
+int key;
 
 class bst
 {
+    private:
+    int count;
     public:
     void create();
     void insert(node*,node*);
@@ -229,4 +231,12 @@ int main()
 }
 
 
-
+/// create(): Time: O(n), Space: O(n)
+//insert(): Time: O(h), Space: O(h)
+//disin(): Time: O(n), Space: O(h)
+//dispre(): Time: O(n), Space: O(h)
+///dispost(): Time: O(n), Space: O(h)
+//search(): Time: O(h), Space: O(1)
+//height(): Time: O(n), Space: O(h)
+//min(): Time: O(h), Space: O(1)
+//mirror(): Time: O(n), Space: O(h)

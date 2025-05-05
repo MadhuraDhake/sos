@@ -114,4 +114,7 @@ int main()
 	return 0;
 }
 
+///input(): Time: O(v^2), Space: O(v^2)
+///display(): Time: O(v^2), Space: O(v^2)
+//minimum(): Time: O(v^2), Space: O(v)
 

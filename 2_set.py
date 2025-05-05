@@ -116,3 +116,14 @@ while True:
             print("s1 is not a subset of s2")
     elif ch == 0:
         break
+
+    '''_init__: O(1)
+contains: O(n)
+insert: O(n)
+remove: O(n)
+get_size: O(1)
+union: O(n + m)
+intersection: O(n * m)
+difference: O(n * m)
+subset: O(n * m)
+display: O(n)'''

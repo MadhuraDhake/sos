@@ -263,7 +263,13 @@ case 5:
 }
 
 
-
+//create(): Time: O(n), Space: O(n)
+//insert(): Time: O(h), Space: O(h)
+//disp(): Time: O(n), Space: O(h)
+//search(): Time: O(h), Space: O(1)
+//update(): Time: O(h), Space: O(1)
+//del(): Time: O(h), Space: O(h)
+//min(): Time: O(h), Space: O(1)
 
 
 

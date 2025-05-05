@@ -89,3 +89,7 @@ def main():
 
 main()
 
+'''insert_data() Time: O(n), Space: O(1)
+search()  Time: O(n), Space: O(1)
+delete()  Time: O(n), Space: O(1)
+Total space used by client_list  O(n)'''

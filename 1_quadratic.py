@@ -1,7 +1,6 @@
 size = 3
 client_list = [None] * size
 
-
 def add_client():
     client_id = int(input("client id : "))
     name = input("client name : ")
@@ -63,9 +62,6 @@ def display_clients():
         print(client_list[i])
 
 def Main() :
-   Group_A = []
-   Group_B = []
-   Group_C = []
    
    while True :
        print ("\t1 : ADD Client")
@@ -73,11 +69,9 @@ def Main() :
        print ("\t3 : Delete Client")
        print ("\t4 : Display Client")
        
-       ch = int(input("Enter your choice : "))
-       Group_R = []       
+       ch = int(input("Enter your choice : "))    
        if (ch == 3):
            delete_client()
-           break
        elif (ch==1):
              add_client()        
        elif (ch==2):
@@ -87,11 +81,14 @@ def Main() :
        else :
            print ("Wrong choice entered !! Try again")
 
-
 Main()
 quit()
 
 
-
+'''add_client() Time: O(n), Space: O(1)
+search_client()  Time: O(n), Space: O(1)
+delete_client()  Time: O(n), Space: O(1)
+display_clients()  Time: O(n), Space: O(1)
+Best Case  Time: O(1)'''
 
 

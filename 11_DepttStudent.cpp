@@ -130,3 +130,8 @@ int main()
 	  }while(ans=='y'||ans=='Y');
 return 1;
   }
+
+  ///create(): Time Complexity - O(n), Space Complexity - O(1)
+///display(): Time Complexity - O(n), Space Complexity - O(1)
+///search(): Time Complexity - O(n), Space Complexity - O(1)
+///Delete(): Time Complexity - O(n), Space Complexity - O(1)

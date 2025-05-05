@@ -5,7 +5,7 @@ client_list = [None] * size
 def add_client():
     client_id = int(input("client id"))
     name = input("client name")
-    telephone = input("client telephone")
+    telephone = int(input("client telephone"))
     client_details = [client_id, name, telephone]
     index = client_id % size
     for i in range(size):
@@ -75,3 +75,10 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
+'''add_client()  Time: O(n), Space: O(1)
+search_client() Time: O(n), Space: O(1)
+delete_client()  Time: O(n), Space: O(1)
+display_clients() Time: O(n), Space: O(1)
+Best case for add, search, delete  Time: O(1)
+Total space used by client_list O(n), where n = size (in this case, 3)'''

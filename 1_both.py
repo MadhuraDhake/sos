@@ -2,11 +2,10 @@ size = 10
 linear_client_list = [None] * size
 quadratic_client_list = [None] * size
 
-
 def add_client_linear():
     client_id = int(input("Client ID: "))
     name = input("Client Name: ")
-    telephone = input("Client Telephone Number: ")
+    telephone = int(input("Client Telephone Number: "))
     client_details = [client_id, name, telephone]
 
     index = client_id % size
@@ -103,4 +102,11 @@ def main():
 
 
 main()
+
+'''add_client_linear() Time: O(n), Space: O(1)
+add_client_quadratic() Time: O(n), Space: O(1)
+search_client() Time: O(n), Space: O(1)
+delete_client() Time: O(n), Space: O(1)
+Best case for all functions Time: O(1)
+Overall space used by linear_client_list and quadratic_client_list: O(n)'''
 

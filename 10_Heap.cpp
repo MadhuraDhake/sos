@@ -98,3 +98,7 @@ int main()
 
 
 
+///min_heapify(): Time Complexity - O(log n), Space Complexity - O(1)
+///max_heapify(): Time Complexity - O(log n), Space Complexity - O(1)
+///build_minheap(): Time Complexity - O(n), Space Complexity - O(1)
+///build_maxheap(): Time Complexity - O(n), Space Complexity - O(1)
